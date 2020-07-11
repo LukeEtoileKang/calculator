@@ -42,19 +42,18 @@
         }
 
         .textview {
-            width: 405px;
+            width: 400px;
             margin: 5px;
             font-size: 50px;
-            padding: 8px;
-            border: solid;
+            padding: 10px;
             color: black;
         }
 
         .main {
             position: absolute;
-            top: 30%;
-            left: 35%;
-            transform: translateY(-20%);
+            top: 50%;
+            left: 50%;
+            transform: translateY(-45%);
         }
 
         .bg {
@@ -98,13 +97,15 @@
                 <td><input class="click" type="button" value="=" onclick="equal()"></td>
             </tr>
             <tr>
-                <td><input class="click" type="button" value="0" onclick="insert(0)"></td>
-                <td colspan = 2><input
-                  style = "width : 210px;   text-align:center; font-size: 50px;
-                  background:gray;
-                  color: black; " value = "CASOI"></td>
+                <td colspan = 3><input class="click" style = "width : 330px;" type="button" value="0" onclick="insert(0)"></td>
+
                 <td><input class="click" type="button" value="." onclick="insert('.')"></td>
             </tr>
+            <tr>
+              <td colspan = 4><input
+                style = "width : 440px;   text-align:center; font-size: 50px;
+                background:gray;
+                color: black; " value = "CASOI"></td>
         </table>
     </div>
 
